@@ -1,0 +1,43 @@
+.App {
+  background-image: url('assets/grey_background.jpg');
+  text-align: center;
+  min-height: 100vh;
+  opacity: 0.4;
+
+  &-header {
+    width: 100vw;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+  }
+
+  &-github,
+  &-linkedin {
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    margin-right: 25px;
+  }
+
+  &-linkedin {
+    background-image: url('assets/linkedIn_logo.jpg');
+  }
+
+  &-github {
+    background-image: url('assets/github_logo.jpg');
+  }
+  
+  &-body {
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+
+    h1 {
+      margin: 0;
+    }
+
+    h4 {
+      margin: 0;
+    }
+  }
+}
