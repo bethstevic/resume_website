@@ -1,0 +1,52 @@
+.Header {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: #A8A8A8;
+  padding: 10px 0;
+  align-content: center;
+  position: fixed;
+  top: 0;
+
+  &-github,
+  &-linkedin {
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    margin-right: 25px;
+  }
+
+  &-linkedin {
+    background-image: url('../assets/linkedIn_logo.jpg');
+  }
+
+  &-github {
+    background-image: url('../assets/github_logo.jpg');
+  }
+
+  &-social,
+  &-links {
+    display: flex;
+  }
+
+  &-links {
+    align-items: center;
+    text-shadow: none;
+    
+    span {
+      &:before {
+        padding: 5px;
+        content: '|';
+      }
+
+      &:first-child::before {
+        content: '';
+      }
+
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+  }
+}

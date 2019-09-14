@@ -1,0 +1,32 @@
+.Personal {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  
+  &-interest,
+  &-topic {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+  }
+
+  &-topic {
+    h3 {
+      margin: 5px 0;
+    }
+  }
+
+  &-interest {
+    font-weight: 600;
+    text-align: right;
+
+    p {
+      margin: 5px 0;
+
+      &:before {
+        content: '- ';
+      }
+    }
+  }
+}

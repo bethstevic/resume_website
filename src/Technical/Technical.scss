@@ -1,0 +1,19 @@
+.Technical {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  &-category {
+    margin: 0 8px;
+  }
+
+  h2 {
+    margin: 0;
+    font-weight: 800;
+    text-decoration: underline;
+  }
+
+  li {
+    font-weight: 600;
+  }
+}

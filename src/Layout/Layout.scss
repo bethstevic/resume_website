@@ -1,0 +1,15 @@
+.Layout {
+  min-height: 100vh;
+  color: #000000;
+  font-family: 'Courier New';
+  text-shadow: 2px 2px #FFF;
+  
+  &-body {
+    background-image: url('../assets/grey_background.jpg');
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 150px 300px 300px;
+    overflow-y: scroll;
+  }
+}
